@@ -1,0 +1,62 @@
+
+/*global start*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    margin: 0px;
+}
+/*global end*/
+
+
+
+
+
+/*Hero section start*/
+.hero .container .left_side h1{
+    font-size: 70px; 
+    color:rgb(99, 98, 98)
+}
+
+.hero .container .left_side p{
+    color:rgb(136, 135, 135);
+    padding-right:200px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.orange_color{
+    color: rgb(253, 167, 62);
+}
+
+.hero .container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;  
+
+}
+.left_side{
+    width:50%;
+    padding-top: 100px;
+    
+}
+
+.right_side{
+    width:50%;
+    padding-left:2%;
+}
+
+.order_button{
+    text-decoration: none;
+    color: white;
+    font-weight:700px;
+    background-image:linear-gradient( to right, rgb(255, 136, 0), orangered);
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+/*Hero section End*/
+
+
+
+
+
+
