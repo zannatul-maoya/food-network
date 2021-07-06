@@ -18,22 +18,17 @@ body{
 
 h1{
     font-size: 50px; 
-    color:rgb(99, 98, 98)
+    color:rgb(63, 62, 62)
 }
 
 
 p{
-   padding-bottom: 60px; 
+   padding-bottom: 10px; 
    color:rgb(54, 54, 54);
    
 }
 
-/*global endh1{
-    font-size: 40px; 
-    color:rgb(51, 51, 51);
-
-
-}*/
+/*global end*/
 
 
 
@@ -71,8 +66,6 @@ p{
     width:50%;
     
 }
-
-
 /*Hero section End*/
 
 
@@ -114,7 +107,13 @@ p{
 .title{
     font-weight: bolder;
 }
+
+#about_me_text{
+    padding-bottom: 60px;
+}
 /*About me section end*/
+
+
 
 
 
@@ -144,15 +143,32 @@ p{
 .recipie_img{
     height: 200px;
     weight:300px;
-
     padding-bottom:20px;
-
 }
 
 .recipie_items{
     width:60%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+/*Recipie2 Section End*/
+
+
+
+
+/*Social Media Information start*/
+.information{
+    margin-top:100px;
+    margin-left:260px;
+    margin-right:200px;
+    display:flex;
     padding-top:20px;
     padding-left: 20px;
     padding-right:20px;
@@ -161,9 +177,41 @@ p{
     box-shadow: 10px 10px 40px gray;
 }
 
+.informations{
+
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
-/*Recipie2 Section End*/
+.details{
+    color:rgb(10, 10, 10)   
+}
+
+/*Social Media Information end*/
+
+
+
+/*footer start*/
+footer{
+    margin-top: 100px;
+    padding-top:25px;
+    padding-bottom: 60px;
+    background-color:rgb(33, 29, 63) ;
+    text-align: center;
+}
+.tomato_color{
+    color:orange;
+}
+#gray_color{
+    color:rgb(153, 151, 151)
+}
+
+footer p{
+    color:rgb(194, 189, 189);
+}
+/*footer end*/
 
 
 
