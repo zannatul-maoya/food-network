@@ -16,30 +16,31 @@ body{
     border-radius: 50px;
 }
 
-
 h1{
-    font-size: 40px; 
-    color:rgb(51, 51, 51);
-
-
+    font-size: 50px; 
+    color:rgb(99, 98, 98)
 }
+
+
 p{
    padding-bottom: 60px; 
    color:rgb(54, 54, 54);
    
 }
 
-/*global end*/
+/*global endh1{
+    font-size: 40px; 
+    color:rgb(51, 51, 51);
+
+
+}*/
 
 
 
 
 
 /*Hero section start*/
-.hero .container .left_side h1{
-    font-size: 50px; 
-    color:rgb(99, 98, 98)
-}
+
 
 .hero .container .left_side p{
     color:rgb(136, 135, 135);
@@ -70,6 +71,8 @@ p{
     width:50%;
     
 }
+
+
 /*Hero section End*/
 
 
@@ -89,23 +92,20 @@ p{
     display:flex;
 }
 
-
-
-
 .left_side2{
     width:55%;
-    padding-top:50px;
+
 }
 
 .right_side2{
     width:25%;
-    padding-top:200px;
+    padding-top:100px;
     color: rgb(68, 67, 67);
     
 }
 
 .about_me .container .left_side2 img{
-    height:600px;
+    height:500px;
     width: 400 px;
     padding-left: 150px;
     padding-right: 150px;
@@ -116,6 +116,54 @@ p{
 }
 /*About me section end*/
 
+
+
+
+
+/*Recipies Section Start*/
+.recipies{
+    text-align:center;
+    margin-left:400px;
+    margin-right:400px;
+}
+
+/*Recipies Section End*/
+
+
+
+
+
+
+/*Recipie2 Section Start*/
+.recipie_title{
+    display:flex;
+    margin-left: 200px;
+    margin-right:200px;
+}
+
+.recipie_img{
+    height: 200px;
+    weight:300px;
+
+    padding-bottom:20px;
+
+}
+
+.recipie_items{
+    width:60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:0px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+
+/*Recipie2 Section End*/
 
 
 
