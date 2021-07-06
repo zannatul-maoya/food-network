@@ -5,6 +5,30 @@ body{
     font-weight:500;
     margin: 0px;
 }
+
+
+.Button{
+    text-decoration: none;
+    color: white;
+    font-weight:700px;
+    background-image:linear-gradient( to right, rgb(255, 136, 0), orangered);
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+
+h1{
+    font-size: 40px; 
+    color:rgb(51, 51, 51);
+
+
+}
+p{
+   padding-bottom: 60px; 
+   color:rgb(54, 54, 54);
+   
+}
+
 /*global end*/
 
 
@@ -13,7 +37,7 @@ body{
 
 /*Hero section start*/
 .hero .container .left_side h1{
-    font-size: 70px; 
+    font-size: 50px; 
     color:rgb(99, 98, 98)
 }
 
@@ -24,36 +48,77 @@ body{
     padding-bottom: 30px;
 }
 
-.orange_color{
+#orange_color{
     color: rgb(253, 167, 62);
 }
 
 .hero .container{
     display: flex;
-    margin-top: 100px;
-    margin-left: 100px;  
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right:100px;  
 
 }
 .left_side{
     width:50%;
     padding-top: 100px;
+    padding-right:2%;
     
 }
 
 .right_side{
     width:50%;
-    padding-left:2%;
-}
-
-.order_button{
-    text-decoration: none;
-    color: white;
-    font-weight:700px;
-    background-image:linear-gradient( to right, rgb(255, 136, 0), orangered);
-    padding: 20px 40px;
-    border-radius: 50px;
+    
 }
 /*Hero section End*/
+
+
+
+
+
+/*About me section start*/
+.about_me{
+    margin-top: 50px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.about_me .container{
+    display:flex;
+}
+
+
+
+
+.left_side2{
+    width:55%;
+    padding-top:50px;
+}
+
+.right_side2{
+    width:25%;
+    padding-top:200px;
+    color: rgb(68, 67, 67);
+    
+}
+
+.about_me .container .left_side2 img{
+    height:600px;
+    width: 400 px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+}
+.title{
+    font-weight: bolder;
+}
+/*About me section end*/
+
+
+
+
 
 
 
